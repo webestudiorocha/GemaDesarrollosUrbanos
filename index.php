@@ -126,7 +126,7 @@ $categoria_data = $categoria->list($filter);
                                <div class="container-fluid">
                                    <div class="row equalize sm-equalize-auto">
                                        <div class="col-md-6 half-background style-1" style="padding-right: 0px !important;">
-                                           <img src="<?= URL?>/assets/img/arms-care-check-905874.jpg" style="width: 100%">
+                                           <img src="<?= URL?>/assets/img/Gema desarrollos urbanos_fondo verde1.jpg" style="width: 100%">
                                        </div><!-- /.col-md-6 -->
                                        <div class="col-md-6 bg-light-grey">
                                            <div class="themesflat-content-box clearfix" data-margin="0 25% 0 4.5%" data-mobilemargin="0 0 0 4.5%">
