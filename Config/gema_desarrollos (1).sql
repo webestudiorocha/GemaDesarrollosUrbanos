@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 15-03-2019 a las 16:02:05
+-- Tiempo de generación: 15-03-2019 a las 16:09:27
 -- Versión del servidor: 10.1.34-MariaDB
 -- Versión de PHP: 7.2.7
 
@@ -86,9 +86,9 @@ CREATE TABLE `contenidos` (
 --
 
 INSERT INTO `contenidos` (`id`, `contenido`, `cod`) VALUES
-(2, '', 'Empresa'),
 (3, '', 'Footer'),
-(5, '', 'CONTACTO');
+(5, '', 'CONTACTO'),
+(6, '<p>Gema desarrollos urbanos junto a profesionales de experiencia en el rubro, gestiona y planifica espacios destinados a la urbanizaci&oacute;n p&uacute;blica y privada, ejecutando<br />\r\ninfraestructuras con cloacas, cord&oacute;n cuneta con ripio, agua red potable de red alumbrado p&uacute;blico en calles y espacios verdes, redes de Fibra &Oacute;ptica y el&eacute;ctricas Subterraneas<br />\r\nAdemas, nos responsabilizamos de gestionar todo tramites de aprobaci&oacute;n correspondientes. Loteo &ldquo;La Campi&ntilde;a&rdquo; es una realidad en marcha</p>\r\n', 'DESCRIPCION');
 
 -- --------------------------------------------------------
 
@@ -527,7 +527,7 @@ ALTER TABLE `categorias`
 -- AUTO_INCREMENT de la tabla `contenidos`
 --
 ALTER TABLE `contenidos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `galerias`

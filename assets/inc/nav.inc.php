@@ -13,8 +13,8 @@ $funciones_nav = new Clases\PublicFunction();
             <div class="top-bar-inner-wrap">
                 <div class="top-bar-content">
                     <div class="inner">
-                        <span class="address content">Porteña, Córdoba</span>
-                        <span class="phone content">11111</span>
+                        <span class="address content">Roque Sáenz Peña 450, Porteña, Córdoba</span>
+                        <span class="phone content">03564 - 452050/624956</span>
                     </div>
                 </div><!-- /.top-bar-content -->
 
