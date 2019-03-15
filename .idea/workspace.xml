@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d1484b3-5e76-44ee-8b11-e9d1c7208bc7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/social.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clases/Conexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Clases/Conexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clases/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/Clases/Email.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clases/Portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/Clases/Portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/Autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/Config/Autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/nav.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/nav.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/sliders/modificar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/sliders/modificar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/archivos/recortadas/a_1c13339f67.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/archivos/recortadas/a_4e521429ca.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/archivos/recortadas/a_54aed85342.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/archivos/recortadas/a_7e5115f8af.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/shortcodes.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/shortcodes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Gema desarrollos urbanos_fondo verde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Gema desarrollos urbanos_fondo verde.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/inc/footer.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/inc/footer.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/inc/header.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/inc/header.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/inc/nav.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/inc/nav.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contenido.php" beforeDir="false" afterPath="$PROJECT_DIR$/contenido.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-about-careers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-about-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-about-team.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-blog-single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-contact-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-pricing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-project-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-projects-full.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-services-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-services.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-testimonial.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producto.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="0d1484b3-5e76-44ee-8b11-e9d1c7208bc7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
