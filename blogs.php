@@ -133,7 +133,7 @@ $numeroPaginas = $novedades->paginador("", $cantidad);
                                     <div class="follow-item facebook">
                                         <div class="inner">
                                         <span class="socials">
-                                            <a href="https://www.facebook.com/pages/category/Product-Service/Gema-Arquitectura-y-Construcci%C3%B3n-323910314828274/" target="_blank">
+                                            <a href="#">
                                                 <i class="fa fa-facebook"></i></a>
                                         </span>
                                         </div>
