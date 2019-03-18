@@ -127,7 +127,7 @@ $template->themeInit();
                                        </div><!-- /.col-md-6 -->
                                        <div class="col-md-8">
                                            <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="0" data-smobile="35"></div>
-                                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13677.857776512517!2d-62.07521437751081!3d-31.013307254641305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943520b3965e5567%3A0xca32660a8a13246b!2zUG9ydGXDsWEsIEPDs3Jkb2Jh!5e0!3m2!1ses!2sar!4v1552490205407" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>                                       </div><!-- /.col-md-6 -->
+                                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3419.4278748817505!2d-62.06619658517087!3d-31.01432648402163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943520afde3e45ef%3A0x50bd1a099cb8935d!2zUm9xdWUgU8OhZW56IFBlw7FhLCBQb3J0ZcOxYSwgQ8OzcmRvYmE!5e0!3m2!1ses!2sar!4v1552910663016" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>                                    </div><!-- /.col-md-6 -->
                                    </div><!-- /.row -->
                                    <div class="row">
                                        <div class="col-md-12">
