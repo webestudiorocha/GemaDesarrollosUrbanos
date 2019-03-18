@@ -60,11 +60,10 @@ $novedadesData = $novedades->listWithOps("", "", "3");
                 <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="35" data-smobile="35"></div>
 
                 <div class="widget widget_tags">
-                    <h2 class="widget-title margin-bottom-30"><span>TAGS</span></h2>
-                    <div class="tags-list">
-                        <a href="#"></a>
-                    </div>
+                    <h2 class="widget-title margin-bottom-30"><span>Danos Me gusta</span></h2>
+
                 </div>
+
             </div><!-- /.col -->
 
 
@@ -79,16 +78,7 @@ $novedadesData = $novedades->listWithOps("", "", "3");
                 </div>
             </div><!-- /.bottom-bar-content -->
 
-            <div class="bottom-bar-menu">
-                <ul class="bottom-nav">
-                    <li class="fa fa-facebook">
-                        <a href="#" >Facebook</a>
-                    </li>
-                <li class="fa fa-instagram">
-                    <a href="#">Instagram</a>
-                </li>
-                </ul>
-            </div><!-- /.bottom-bar-menu -->
+
         </div><!-- /.bottom-bar-inner-wrap -->
     </div><!-- /#bottom-bar-inner -->
 </div><!-- /#bottom -->

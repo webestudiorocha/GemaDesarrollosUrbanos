@@ -10,7 +10,7 @@ $sliders = new Clases\Sliders();
 $contenido= new Clases\Contenidos();
 $template->set("title", TITULO . " | Contacto");
 $template->set("description", "Contacto de gema, contacto de arquitectos en brikmann, contacto de constructores en brikmann " . TITULO);
-$template->set("keywords", "Contacto de gema, contacto de arquitectos en brikmann, contacto de constructores en brikmann, gema, arquitectos, constructores " . TITULO);
+$template->set("keywords", "Contacto de gema, contacto de arquitectos en brikmann, contacto de constructores en porteña, gema, arquitectos, constructores " . TITULO);
 $template->set("body", "header-fixed page no-sidebar header-style-2 topbar-style-1 menu-has-search");
 $enviar = new Clases\Email();
 $template->themeInit();

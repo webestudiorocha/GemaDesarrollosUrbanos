@@ -4,7 +4,7 @@ Config\Autoload::runSitio();
 $template = new Clases\TemplateSite();
 $funciones = new Clases\PublicFunction();
 $imagenes = new Clases\Imagenes();
-$producto = new Clases\Productos();
+$portfolio = new Clases\Portfolio();
 $novedades = new Clases\Novedades();
 $sliders = new Clases\Sliders();
 $servicio = new Clases\Servicios();
@@ -18,9 +18,9 @@ $template->set("keywords", "Estudio de arquitectos, constructora, ventas de puer
 $template->set("imagen", LOGO);
 $template->set("body", "header-fixed page no-sidebar header-style-2 topbar-style-2 menu-has-search");
 $template->themeInit();
-$producto->set("cod", $id);
+$portfolio->set("cod", $id);
 $sliders_data = $sliders->list('', '', '');
-$producto_data = $producto->list("", "", "4");
+$portfolio_data = $portfolio->list("", "", "4");
 $novedades_data = $novedades->list('', '', '3');
 $categoria = new Clases\Categorias();
 $filter = array("area='portfolio'");
@@ -81,44 +81,44 @@ $categoria_data = $categoria->list($filter);
                             </div>
                             <!-- END SLIDER -->
                             <!-- ICONBOX -->
-                            <div class="row-iconbox">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="themesflat-spacer clearfix" data-desktop="60" data-mobile="60" data-smobile="60"></div>
-                                            <div class="themesflat-headings style-1 text-center clearfix">
-                                                <h2 class="heading">Empresa</h2>
-                                                <div class="sep has-icon width-125 clearfix">
-                                                    <div class="sep-icon">
-                                                        <span class="sep-icon-before sep-center sep-solid"></span>
-                                                        <span class="icon-wrap"><i class="autora-icon-build"></i></span>
-                                                        <span class="sep-icon-after sep-center sep-solid"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="themesflat-spacer clearfix" data-desktop="42" data-mobile="35" data-smobile="35"></div>
-                                        </div><!-- /.col-md-12 -->
-                                    </div><!-- /.row -->
+                           <div class="row-iconbox">
+                               <div class="container">
+                                   <div class="row">
+                                       <div class="col-md-12">
+                                           <div class="themesflat-spacer clearfix" data-desktop="60" data-mobile="60" data-smobile="60"></div>
+                                           <div class="themesflat-headings style-1 text-center clearfix">
+                                               <h2 class="heading">Empresa</h2>
+                                               <div class="sep has-icon width-125 clearfix">
+                                                   <div class="sep-icon">
+                                                       <span class="sep-icon-before sep-center sep-solid"></span>
+                                                       <span class="icon-wrap"><i class="autora-icon-build"></i></span>
+                                                       <span class="sep-icon-after sep-center sep-solid"></span>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="themesflat-spacer clearfix" data-desktop="42" data-mobile="35" data-smobile="35"></div>
+                                       </div><!-- /.col-md-12 -->
+                                   </div><!-- /.row -->
 
-                                    <div class="row">
-                                        <div class="col-md-12" style="padding-right: 0px !important;">
-                                            <div class="themesflat-content-box clearfix" data-margin="0 5px 0 5px" data-mobilemargin="0 0 0 0">
-                                                <div class="themesflat-icon-box icon-top align-center has-width w95 circle light-bg accent-color style-1 clearfix">
-                                                    <div >
-                                                        <?php $contenido->set("cod", "EMPRESA");
-                                                        $conEmpresa =  $contenido->view();
-                                                        echo $conEmpresa["contenido"];
-                                                        ?>
+                                   <div class="row">
+                                       <div class="col-md-12" style="padding-right: 0px !important;">
+                                           <div class="themesflat-content-box clearfix" data-margin="0 5px 0 5px" data-mobilemargin="0 0 0 0">
+                                               <div class="themesflat-icon-box icon-top align-center has-width w95 circle light-bg accent-color style-1 clearfix">
+                                                   <div >
+                                                       <?php $contenido->set("cod", "EMPRESA");
+                                                       $conEmpresa =  $contenido->view();
+                                                       echo $conEmpresa["contenido"];
+                                                       ?>
 
-                                                    </div>
-                                                </div><!-- /.themesflat-icon-box -->
-                                            </div><!-- /.themesflat-content-box -->                                         
-                                        </div><!-- /.col-md-4 -->
-                                    </div><!-- /.row -->
+                                                   </div>
+                                               </div><!-- /.themesflat-icon-box -->
+                                           </div><!-- /.themesflat-content-box -->
+                                       </div><!-- /.col-md-4 -->
+                                   </div><!-- /.row -->
 
 
-                                </div><!-- /.container -->
-                            </div>
+                               </div><!-- /.container -->
+                           </div>
                             <!-- END ICONBOX -->
 
                             <!-- ABOUT -->
@@ -126,12 +126,12 @@ $categoria_data = $categoria->list($filter);
                                <div class="container-fluid">
                                    <div class="row equalize sm-equalize-auto">
                                        <div class="col-md-6 half-background style-1" style="padding-right: 0px !important;">
-                                           <img src="<?= URL?>/assets/img/Gema desarrollos urbanos_fondo verde1.jpg" style="width: 100%">
+                                           <img src="<?= URL?>/assets/img/Gema desarrollos urbanos_fondo verde1.jpg" style="width: 100% !important;">
                                        </div><!-- /.col-md-6 -->
                                        <div class="col-md-6 bg-light-grey">
                                            <div class="themesflat-content-box clearfix" data-margin="0 25% 0 4.5%" data-mobilemargin="0 0 0 4.5%">
                                                <div class="themesflat-headings style-1 clearfix">
-                                                   <h2 class="heading">Gema Desarrollos Urbanos</h2>
+                                                   <h2 style="font-size: 25px !important;" class="heading">Gema Desarrollos Urbanos</h2>
                                                    <div class="sep has-width w80 accent-bg margin-top-11 clearfix"></div>
                                                    <p class="sub-heading margin-top-30">
                                                        <?php $contenido->set("cod", "DESCRIPCION");
@@ -139,7 +139,7 @@ $categoria_data = $categoria->list($filter);
                                                        echo strip_tags(substr($conDescripcion["contenido"],0, 400)) ;
 
                                                        ?>
-                                                   ...</p>
+                                                       ...</p>
                                                </div>
                                            </div><!-- /.themesflat-content-box -->
                                        </div><!-- /.col-md-6 -->
@@ -183,7 +183,7 @@ $categoria_data = $categoria->list($filter);
                                                             <div class="inner">
                                                                 <div class="thumb data-effect-item">
                                                                     <a href="<?= URL . '/servicio/' . $funciones->normalizar_link($port['titulo']) . '/' . $funciones->normalizar_link($port['cod']) ?>">
-                                                                        <img src="<?= URL . '/' . $img['ruta'] ?>" alt="Image">
+                                                                        <img src="<?= URL . '/' . $img['ruta'] ?>" style="width: 100%;height: 250px;"  alt="Image">
                                                                     <div class="overlay-effect bg-color-accent"></div>
                                                                 </div>
                                                                 <div class="text-wrap">
@@ -218,7 +218,7 @@ $categoria_data = $categoria->list($filter);
                                             <div class="themesflat-spacer clearfix"></div>
                                             <br>
                                             <div class="themesflat-headings style-1 text-center clearfix">
-                                                <h2 class="heading text-white">Productos</h2>
+                                                <h2 class="heading text-white">Portfolio</h2>
                                                 <div class="sep has-icon width-125 border-color-light clearfix">
                                                     <div class="sep-icon">
                                                         <span class="sep-icon-before sep-center sep-solid"></span>
@@ -230,38 +230,35 @@ $categoria_data = $categoria->list($filter);
                                             <div class="themesflat-spacer clearfix" data-desktop="30" data-mobile="35" data-smobile="35"></div>
                                             <div class="themesflat-carousel-box clearfix" data-gap="30" data-column="4" data-column2="2" data-column3="1" data-auto="false">
                                                 <div class="owl-carousel owl-theme">
-                                                    <?php foreach ($producto_data as $port): ?>
-                                                    <?php
-                                                    $imagenes->set("cod", $port['cod']);
-                                                    $img = $imagenes->view();
+                                                    <?php foreach ($portfolio_data as $port): ?>
+                                                        <?php
+                                                        $imagenes->set("cod", $port['cod']);
+                                                        $img = $imagenes->view();
 
-                                                    ?>
-                                                    <div class="themesflat-project style-1 data-effect  clearfix">
-                                                        <div class="project-item">
-                                                            <div class="inner">
-                                                                <div class="thumb data-effect-item has-effect-icon w40 offset-v-43 offset-h-46">
-                                                                    <img  src="<?= URL . '/' . $img['ruta'] ?>" alt="Image">
-                                                                    <div class="text-wrap text-center">
-                                                                        <h5 class="heading"><a href="<?= URL . '/producto/' . $funciones->normalizar_link($port['titulo']) . '/' . $funciones->normalizar_link($port['cod']) ?>"><?= ucfirst($port['titulo']); ?></a></h5>
-                                                                        <h6 style="color: white !important;">
-                                                                            <a
-                                                                                    href='<?= URL . '/producto/' . $funciones->normalizar_link($port["titulo"]) . '/' . $port["cod"] ?>'>$<?= ucfirst($port["precio"]) ?></a>
-                                                                        </h6>
+                                                        ?>
+                                                        <div class="themesflat-project style-1 data-effect  clearfix">
+                                                            <div class="project-item">
+                                                                <div class="inner">
+                                                                    <div class="thumb data-effect-item has-effect-icon w40 offset-v-43 offset-h-46">
+                                                                        <img  src="<?= URL . '/' . $img['ruta'] ?>" alt="Image">
+                                                                        <div class="text-wrap text-center">
+                                                                            <h5 class="heading"><a href="<?= URL . '/portfolio/' . $funciones->normalizar_link($port['titulo']) . '/' . $funciones->normalizar_link($port['cod']) ?>"><?= ucfirst($port['titulo']); ?></a></h5>
+
+                                                                        </div>
+                                                                        <div class="elm-link text-center">
+                                                                            <a href="<?= URL . '/portfolio/' . $funciones->normalizar_link($port['titulo']) . '/' . $funciones->normalizar_link($port['cod']) ?>"class="icon-1"></a>
+                                                                        </div>
+                                                                        <div class="overlay-effect bg-color-3"></div>
                                                                     </div>
-                                                                    <div class="elm-link text-center">
-                                                                        <a href="<?= URL . '/producto/' . $funciones->normalizar_link($port['titulo']) . '/' . $funciones->normalizar_link($port['cod']) ?>"class="icon-1"></a>
-                                                                    </div>
-                                                                    <div class="overlay-effect bg-color-3"></div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </div><!-- /.themesflat-project -->
+                                                        </div><!-- /.themesflat-project -->
                                                     <?php endforeach; ?>
                                                 </div>
                                             </div><!-- /.themesflat-carousel-box -->
                                             <div class="themesflat-spacer clearfix" data-desktop="41" data-mobile="35" data-smobile="35"></div>
                                             <div class="elm-button text-center">
-                                                <a href="<?= URL ?>/productos.php" class="themesflat-button bg-accent">Todos los productos </a>
+                                                <a href="<?= URL ?>/portfolios" class="themesflat-button bg-accent">Todos los Portfolios </a>
                                             </div>
                                             <br>
                                             <br>
