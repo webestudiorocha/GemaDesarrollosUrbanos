@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d1484b3-5e76-44ee-8b11-e9d1c7208bc7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Gema desarrollos urbanos_fondo verde1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Gema desarrollos urbanos_fondo verde1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/inc/footer.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/inc/footer.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacto.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contenido.php" beforeDir="false" afterPath="$PROJECT_DIR$/contenido.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolios.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/blogs.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -48,11 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolios.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="101" selection-start-line="8" selection-start-column="101" selection-end-line="8" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="638" column="65" lean-forward="true" selection-start-line="638" selection-start-column="65" selection-end-line="638" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -137,7 +138,6 @@
         <option value="$PROJECT_DIR$/Clases/Conexion.php" />
         <option value="$PROJECT_DIR$/Config/Autoload.php" />
         <option value="$PROJECT_DIR$/admin/inc/sliders/modificar.php" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/assets/inc/header.inc.php" />
         <option value="$PROJECT_DIR$/social.php" />
         <option value="$PROJECT_DIR$/producto.php" />
@@ -155,6 +155,7 @@
         <option value="$PROJECT_DIR$/contenido.php" />
         <option value="$PROJECT_DIR$/servicios.php" />
         <option value="$PROJECT_DIR$/portfolios.php" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -169,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,6 +181,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,18 +240,18 @@
       <workItem from="1552517063517" duration="953000" />
       <workItem from="1552651339147" duration="7832000" />
       <workItem from="1552910842032" duration="438000" />
-      <workItem from="1552912197433" duration="4234000" />
+      <workItem from="1552912197433" duration="4823000" />
+      <workItem from="1553034368875" duration="457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144844000" />
+    <option name="totallyTimeSpent" value="145890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19742814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -501,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="3660" column="42" selection-start-line="3660" selection-start-column="42" selection-end-line="3660" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/social.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -590,7 +584,7 @@
     <entry file="file://$PROJECT_DIR$/blogs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -619,6 +613,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="101" selection-start-line="8" selection-start-column="101" selection-end-line="8" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="638" column="65" lean-forward="true" selection-start-line="638" selection-start-column="65" selection-end-line="638" selection-end-column="65" />
         </state>
       </provider>
     </entry>
