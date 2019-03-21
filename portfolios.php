@@ -4,8 +4,8 @@ Config\Autoload::runSitio();
 $template = new Clases\TemplateSite();
 $funciones = new Clases\PublicFunction();
 $template->set("title", TITULO . " | Portfolios");
-$template->set("description", "Portfolios de gema desarrollos urbanos, gema, gema desarrollos, gema urbanos, gema desarrollos urbanos" . TITULO);
-$template->set("keywords", "Productos dePortfolios de gema desarrollos urbanos, gema, gema desarrollos, gema urbanos, gema desarrollos urbanoser-fixed page no-sidebar header-style-2 topbar-style-1 menu-has-search");
+$template->set("description", "Portfolios de gema desarrollos urbanos, gema , gema desarrollos, gema urbanos, arquitectos, contruccion" . TITULO);
+$template->set("keywords", "Portfolios de gema desarrollos urbanos, gema , gema desarrollos, gema urbanos, arquitectos, contruccion" . TITULO);
 $template->set("body", "header-fixed page no-sidebar header-style-2 topbar-style-1 menu-has-search");
 $template->themeInit();
 $categoria = isset($_GET["categoria"]) ? $_GET["categoria"] : '';
@@ -39,7 +39,6 @@ endif;
 $portfolio_Data = $portfolios->list("", "", $cantidad * $pagina . ',' . $cantidad);
 $numeroPaginas = $portfolios->paginador("", $cantidad);
 
-
 ?>
     <div id="wrapper" class="animsition">
         <div id="page" class="clearfix">
@@ -47,7 +46,7 @@ $numeroPaginas = $portfolios->paginador("", $cantidad);
 
             <!-- Featured Title -->
             <div id="featured-title" class="featured-title clearfix text-center">
-                <h1 style="padding-top: 20px !important;">Portfolios</h1>
+                <h1 style="padding-top: 60px !important;">Portfolios</h1>
             </div>
             <!-- End Featured Title -->
 

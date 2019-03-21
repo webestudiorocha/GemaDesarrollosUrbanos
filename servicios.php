@@ -24,7 +24,7 @@ $funciones = new Clases\PublicFunction();
     <div id="page" class="clearfix">
         <!-- Featured Title -->
         <div id="featured-title" class="featured-title clearfix text-center">
-            <h1 style="padding-top: 20px !important;">Servicios</h1>
+            <h1 style="padding-top: 60px !important;">Servicios</h1>
         </div>
         <!-- End Featured Title -->
 

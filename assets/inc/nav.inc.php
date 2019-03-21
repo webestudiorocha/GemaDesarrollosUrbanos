@@ -58,7 +58,7 @@ $funciones_nav = new Clases\PublicFunction();
                         <li class="menu-item menu-item-has-children <?php if(strpos(CANONICAL,"servicios")) { echo "current-menu-item"; } ?>">
                             <a href="<?= URL; ?>/servicios">Servicios</a>
                         </li>
-                        <li class="menu-item menu-item-has-children <?php if(strpos(CANONICAL,"productos")) { echo "current-menu-item"; } ?>">
+                        <li class="menu-item menu-item-has-children <?php if(strpos(CANONICAL,"portfolios")) { echo "current-menu-item"; } ?>">
                             <a href="<?= URL; ?>/portfolios">Portfolios</a>
                         </li>
                         <li class="menu-item menu-item-has-children <?php if(strpos(CANONICAL,"blogs")) { echo "current-menu-item"; } ?>">

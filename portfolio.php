@@ -29,7 +29,7 @@ $template->themeInit();
 
         <!-- Featured Title -->
         <div id="featured-title" class="featured-title clearfix text-center">
-            <h1 style="padding-top: 20px !important;"> <?php echo $portfolioData['titulo']; ?></h1>
+            <h1 style="padding-top: 60px !important;"> <?php echo $portfolioData['titulo']; ?></h1>
         </div>
         <!-- End Featured Title -->
 

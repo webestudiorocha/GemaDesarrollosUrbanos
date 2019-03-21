@@ -21,7 +21,7 @@ $template->themeInit();
         <div id="page" class="clearfix">
             <!-- Featured Title -->
             <div id="featured-title" class="featured-title clearfix text-center">
-                <h1 style="padding-top: 20px !important;"><?= ucfirst($servicio_data["titulo"]); ?></h1>
+                <h1 style="padding-top: 60px !important;"><?= ucfirst($servicio_data["titulo"]); ?></h1>
             </div>
             <!-- End Featured Title -->
             <!-- Main Content -->

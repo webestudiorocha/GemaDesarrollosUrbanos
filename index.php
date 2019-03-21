@@ -240,7 +240,7 @@ $categoria_data = $categoria->list($filter);
                                                             <div class="project-item">
                                                                 <div class="inner">
                                                                     <div class="thumb data-effect-item has-effect-icon w40 offset-v-43 offset-h-46">
-                                                                        <img  src="<?= URL . '/' . $img['ruta'] ?>" alt="Image">
+                                                                        <img  src="<?= URL . '/' . $img['ruta'] ?>" style="height: 200px" alt="Image">
                                                                         <div class="text-wrap text-center">
                                                                             <h5 class="heading"><a href="<?= URL . '/portfolio/' . $funciones->normalizar_link($port['titulo']) . '/' . $funciones->normalizar_link($port['cod']) ?>"><?= ucfirst($port['titulo']); ?></a></h5>
 
